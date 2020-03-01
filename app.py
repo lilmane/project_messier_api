@@ -11,7 +11,7 @@ import pandas as pd
 conn = sqlite3.connect('messier.db')
 c = conn.cursor()
 
-
+# Get Data from API
 
 app = Flask(__name__)
 
